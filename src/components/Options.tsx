@@ -8,31 +8,29 @@ const Options: React.FC<OptionsProps> = () => {
       <h2 className="options-header">Find your holidays by:</h2>
       <div className="options-container">
         <label className="options-label">
-          <small className="options-small">location:</small>
+          <small className="options-small">locations:</small>
           <select className="options-select">
-            <option value="">hello world</option>
-            <option value="">welcome</option>
-            <option value="">
-              jlksajdf lksaf dlsakdfj asf sadklfj sadf lsdfj{" "}
-            </option>
+            <option value="">All</option>
+            <option value="">Greece</option>
+            <option value="">Spain</option>
           </select>
         </label>
 
         <label className="options-label">
-          <small className="options-small">rooms:</small>
+          <small className="options-small">accommodation:</small>
           <select className="options-select">
-            <option value="">hello world</option>
-            <option value="">welcome</option>
-            <option value="">kasjd dlsakdfj asf</option>
+            <option value="">All</option>
+            <option value="">Bed and Breakfast</option>
+            <option value="">Double Room</option>
           </select>
         </label>
 
         <label className="options-label">
-          <small className="options-small">food:</small>
+          <small className="options-small">board:</small>
           <select className="options-select">
-            <option value="">hello world</option>
-            <option value="">welcome</option>
-            <option value="">kasjd flskdfj lksadf</option>
+            <option value="">All</option>
+            <option value="">All inclusive</option>
+            <option value="">Half board</option>
           </select>
         </label>
       </div>
