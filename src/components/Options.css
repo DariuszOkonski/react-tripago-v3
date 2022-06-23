@@ -1,0 +1,38 @@
+.options {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+.options-header {
+  margin: 10px 0;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.options-small {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.options-label {
+  width: 30%;
+}
+
+.options-select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  color: #555;
+}
