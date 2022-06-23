@@ -14,3 +14,29 @@ body {
   padding: 10px;
   margin: 0 auto;
 }
+
+.btn {
+  border: 0;
+  margin: 10px 0;
+  background-color: #555;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  width: 200px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 520px) {
+  .btn {
+    width: 120px;
+    font-size: 1rem;
+  }
+}
+
+.btn:hover {
+  background-color: #222;
+}
