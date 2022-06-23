@@ -1,0 +1,59 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.hide {
+  display: none;
+}
+
+.modal-container {
+  max-width: 720px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.modal-small {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.modal-description {
+  line-height: 1.1;
+  text-align: justify;
+}
+
+.modal-board,
+.modal-accommodation,
+.modal-price,
+.modal-location {
+  font-size: 1.2rem;
+}
+
+.modal-price {
+  font-weight: bold;
+}
+
+.modal-btn {
+  display: block;
+  margin: 10px auto 0;
+}

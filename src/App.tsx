@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Modal from "./components/Modal";
 import Options from "./components/Options";
 import Results from "./components/Result";
 
@@ -9,6 +10,8 @@ function App() {
       <Header />
       <Options />
       <Results />
+
+      <Modal />
     </div>
   );
 }
