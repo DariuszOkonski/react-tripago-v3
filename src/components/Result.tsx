@@ -9,8 +9,6 @@ const Results: React.FC<ResultsProps> = () => {
       <h2 className="results-header">Results:</h2>
 
       <Card />
-      <Card />
-      <Card />
     </div>
   );
 };

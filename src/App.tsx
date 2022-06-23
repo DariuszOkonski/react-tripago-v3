@@ -1,17 +1,27 @@
 import "./App.css";
 import Header from "./components/Header";
+import Loading from "./components/Loading";
 import Modal from "./components/Modal";
 import Options from "./components/Options";
 import Results from "./components/Result";
+import useFetch from "./hooks/useFetch";
 
 function App() {
+  const [isPending, data, err] = useFetch("http://localhost:3000/tripsss");
+
   return (
     <div className="App">
       <Header />
-      <Options />
-      <Results />
 
-      <Modal />
+      {isPending && <Loading />}
+
+      {!isPending && (
+        <>
+          <Options />
+          <Results />
+          <Modal />
+        </>
+      )}
     </div>
   );
 }

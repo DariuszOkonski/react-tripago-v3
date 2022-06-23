@@ -1,0 +1,22 @@
+.loading {
+  margin-top: 50px;
+  min-height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loading-gif {
+  max-width: 100px;
+}
+
+.loading-header {
+  margin-top: 50px;
+  font-size: 1.8rem;
+  color: #555;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: monospace;
+}
