@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
     </div>
   );
 }
 
 export default App;
+
+{
+  /* <h4>by location, by rooms, by food, price low-hight</h4>
+http://localhost:3000/trips
+http://localhost:3000/trips?loc=Greece
+http://localhost:3000/trips?rooms=Double%20Room
+http://localhost:3000/trips?food=All%20Inclusive
+http://localhost:3000/trips?_sort=price&_order=desc */
+}

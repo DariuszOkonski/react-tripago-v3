@@ -1,0 +1,139 @@
+{
+    "trips": [
+        {
+            "id": "1",
+            "title": "Alua Soul Mallorca Resort",
+            "description": "Pellentesque a libero at lectus tincidunt facilisis quis sit amet leo. Phasellus ac congue lorem. Suspendisse vel est eget elit ultrices ornare. Nunc accumsan justo tincidunt iaculis consequat. Morbi elit massa, auctor sit amet elit tincidunt, viverra elementum nunc. Pellentesque ut ipsum eget neque accumsan varius eu a felis. Donec quis ante velit. Vivamus odio mi, vulputate et pulvinar vel, dapibus eu nulla. Nulla ac metus nec risus vehicula rutrum at quis turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris suscipit, ullamcorper eros eu, ultrices magna. Ut lacinia odio at urna vehicula, eget rhoncus dolor ultrices. Nunc vitae fermentum lectus. In sit amet enim viverra, porttitor ligula a, auctor lacus. Integer eget felis eu odio pharetra luctus.",
+            "food": "Half Board",
+            "rooms": "Double Room With Sea View",
+            "price": "2,659",
+            "loc": "Spain"
+        },
+        {
+            "id": "2",
+            "title": "Eden Roc Resort Hotel",
+            "description": "Nam in ante est. Nam feugiat risus eu arcu euismod, sit amet euismod dolor consequat. In at neque eget massa rhoncus posuere et id lorem. Proin sed magna est. Nullam a aliquet nulla. Suspendisse vel posuere mi, eget commodo enim. Ut iaculis, est eget congue commodo, nulla orci lobortis sem, at rutrum arcu dui sollicitudin ante. Suspendisse potenti. Nullam porttitor id sapien ut auctor. Curabitur quis mattis libero. Curabitur at scelerisque tellus, ac suscipit massa. Vestibulum a nisl velit. Sed interdum fermentum ipsum, id interdum sapien iaculis sit amet. Nullam molestie dui malesuada volutpat rutrum. Praesent tempor quam at lectus malesuada efficitur. Sed eu auctor leo.",
+            "food": "All Inclusive",
+            "rooms": "Double Room With Sea View",
+            "price": "3,799",
+            "loc": "Greece"
+        },
+        {
+            "id": "3",
+            "title": "Amanti MadeForTwo Hotels Ayia Napa",
+            "description": "Morbi dapibus a diam a molestie. Quisque nibh libero, pellentesque nec blandit consectetur, cursus tempor velit. Aliquam quis nunc eros. Sed pellentesque elementum orci, nec vehicula ligula auctor at. Etiam gravida bibendum velit, fermentum tincidunt magna feugiat quis. Nulla facilisi. Maecenas condimentum interdum odio, quis feugiat tortor convallis venenatis. Vestibulum vestibulum mauris sed justo auctor suscipit. Aliquam vitae aliquet quam, vitae laoreet ipsum. Quisque vitae tortor eu tellus pulvinar ullamcorper non eleifend odio.",
+            "food": "Half board plus",
+            "rooms": "Deluxe Double Room With Inland View",
+            "price": "3,740",
+            "loc": "Cyprus"
+        },
+        {
+            "id": "4",
+            "title": "Alua Calas de Mallorca Resort",
+            "description": "Aenean posuere ultricies sem, eget bibendum turpis ultrices non. Quisque sit amet tempus elit. Nullam sodales orci non nisl gravida dictum quis eu massa. Etiam placerat, magna sed tincidunt fermentum, lacus augue molestie quam, a vulputate tellus leo sit amet est. Proin vulputate, sem ut finibus tempor, ante mi ornare sem, vitae sagittis arcu tellus sed ligula. Nunc ac odio quis nisi congue blandit. Duis et aliquet felis, varius molestie leo. Vivamus ut augue felis. Sed vel est congue, consectetur diam non, tincidunt massa. Morbi vehicula consectetur tortor ac aliquam. Fusce id finibus lectus, at facilisis lacus. Vivamus vitae turpis lacinia, ultricies mauris sed, rutrum tellus. Suspendisse condimentum dui et venenatis sodales. Vivamus sit amet tellus euismod, interdum velit non, dapibus nulla.",
+            "food": "All Inclusive",
+            "rooms": "Double Room With Sea View",
+            "price": "2,386",
+            "loc": "Spain"
+        },
+        {
+            "id": "5",
+            "title": "Grecotel Eva Palace",
+            "description": "Vivamus et luctus metus. Mauris tortor nisi, vestibulum id lectus rutrum, mattis porta tellus. Mauris eu ex lectus. Integer elementum massa vel efficitur maximus. Integer ut odio eu nunc semper luctus sed aliquet purus. Mauris at elementum justo, in auctor leo. Donec tempor tortor ex, in sodales augue luctus at. Fusce viverra, enim vitae mollis ornare, quam tortor iaculis nisl, vel lacinia tortor justo eget felis. Nunc id felis eu eros sagittis vestibulum in ultrices sapien.",
+            "food": "Half Board",
+            "rooms": "Double Room",
+            "price": "4,154",
+            "loc": "Greece"
+        },
+        {
+            "id": "6",
+            "title": "Art Hotel Gran Paradiso",
+            "description": "Nulla tempor augue ut arcu porta aliquet nec nec ex. In tempus eget ligula et fermentum. Fusce fermentum placerat vulputate. Nunc vitae ante et lectus placerat bibendum sit amet in massa. Maecenas ac nulla in ex iaculis faucibus at non dolor. Vestibulum imperdiet neque nisl, eget accumsan arcu fringilla at. Sed sed porta ipsum, vel commodo erat. Phasellus quis libero lorem.",
+            "food": "Half Board",
+            "rooms": "Double Room",
+            "price": "2,943",
+            "loc": "Italy"
+        },
+        {
+            "id": "7",
+            "title": "Catalonia del Mar",
+            "description": "Aenean porttitor mauris et sapien vestibulum, vitae molestie ipsum ultricies. Ut mollis accumsan justo, vel ullamcorper nunc vestibulum in. Suspendisse venenatis ullamcorper dolor, at faucibus massa lobortis et. Nunc nec ante id elit posuere scelerisque. Curabitur et orci fermentum, tincidunt purus vitae, placerat mi. Integer erat arcu, fringilla eget erat quis, gravida iaculis turpis. Cras rhoncus nisl venenatis pretium vestibulum.",
+            "food": "Half Board",
+            "rooms": "Double Room",
+            "price": "1,750",
+            "loc": "Spain"
+        },
+        {
+            "id": "8",
+            "title": "Numa Bay Exclusive Hotel",
+            "description": "Nunc quis velit arcu. Curabitur consequat elit eu mi cursus porttitor. Quisque aliquam ex ac risus ultrices, in mattis tellus ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer quam sem, dapibus ac pharetra eu, sodales sed felis. In quis finibus dui, et tincidunt erat. Integer semper nisi ut purus elementum, ac efficitur magna tristique. Pellentesque cursus posuere lorem ac hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut egestas laoreet justo a viverra. In quis sapien at sem faucibus porta. Pellentesque vestibulum purus quis dapibus luctus. Aliquam nec posuere sapien.",
+            "food": "All inclusive plus",
+            "rooms": "Double Room",
+            "price": "2,719",
+            "loc": "Turkey"
+        },
+        {
+            "id": "9",
+            "title": "Lindos Grand Resort and Spa",
+            "description": "Mauris nisl arcu, placerat vitae leo quis, molestie dignissim orci. Aenean ultricies, turpis ac volutpat venenatis, lectus mi iaculis augue, at commodo leo nisl id arcu. Nulla suscipit est nunc, ac tincidunt magna maximus in. Duis et commodo nisi, eu mattis orci. Pellentesque luctus purus ac urna varius fringilla. Vivamus consectetur posuere dignissim. Mauris egestas ullamcorper ex, vel elementum dolor.",
+            "food": "Bed and Breakfast",
+            "rooms": "Standard Double Room",
+            "price": "4,296",
+            "loc": "Greece"
+        },
+        {
+            "id": "10",
+            "title": "Paloma Perissia",
+            "description": "Nullam elementum tellus vel turpis cursus mattis. Curabitur elit nibh, venenatis a lacinia in, ultricies tincidunt tellus. Praesent in rhoncus odio. Donec dui augue, pharetra sed ex sed, congue aliquam tortor. Aliquam iaculis tristique nunc, non dapibus mi fringilla vel. Pellentesque sit amet molestie risus, non finibus leo. Integer hendrerit massa at posuere ullamcorper. Maecenas metus dui, egestas sit amet justo ut, gravida dignissim ipsum.",
+            "food": "All inclusive",
+            "rooms": "Double Room",
+            "price": "3,926",
+            "loc": "Turkey"
+        },
+        {
+            "id": "11",
+            "title": "Domus Sessoriana",
+            "description": "Fusce efficitur ligula nulla, et tempor ex egestas ac. Praesent malesuada metus nec tellus fringilla dictum. Proin sit amet orci et arcu elementum eleifend. Vestibulum condimentum tempus nulla, vel consectetur est dapibus ac. Suspendisse ante diam, porttitor sed aliquet ut, finibus eu tellus. Donec rhoncus vitae ligula a congue. Ut suscipit arcu est, sed fringilla nisi eleifend non. Pellentesque elementum, turpis sed feugiat tristique, justo libero tempor quam, eu rutrum dolor est vitae odio. Aliquam erat volutpat. Curabitur tempor non tellus sodales auctor. Vivamus aliquam quis sapien ac tempus. Sed iaculis aliquet lacus sed pretium. Vestibulum et dui suscipit, vehicula sem at, pulvinar metus. Vivamus ullamcorper sit amet nunc id porttitor.",
+            "food": "Bed and Breakfast",
+            "rooms": "Double Or Twin Standard",
+            "price": "1,508",
+            "loc": "Italy"
+        },
+        {
+            "id": "12",
+            "title": "Klima Hotel Milano Fiere",
+            "description": "Vivamus suscipit ac sem consequat sodales. Duis nisl ipsum, convallis id luctus vitae, aliquet nec nunc. Suspendisse egestas turpis a commodo elementum. Nulla facilisi. Morbi ut molestie metus, vitae commodo tortor. Nunc vitae magna facilisis ligula pellentesque bibendum sit amet ac mauris. Mauris id ultrices felis, a posuere erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam gravida aliquam sodales. Vestibulum nisi arcu, pretium et elit eget, vehicula cursus libero. Vestibulum in sodales dolor, vitae dignissim elit. Morbi placerat sollicitudin purus, in molestie turpis fringilla id. Duis ornare euismod felis et ornare. Pellentesque id egestas velit, viverra malesuada est. Ut vitae condimentum risus.",
+            "food": "Bed and Breakfast",
+            "rooms": "Double Standard",
+            "price": "795",
+            "loc": "Italy"
+        },
+        {
+            "id": "13",
+            "title": "Eurostars Monte Tauro",
+            "description": "Maecenas at rutrum justo. Proin dictum, dui sit amet pretium dignissim, sem nisi efficitur orci, sit amet vulputate massa turpis fringilla nibh. Quisque fermentum purus rutrum dapibus euismod. Pellentesque risus turpis, pellentesque non tortor in, vestibulum laoreet ligula. Nam sagittis massa eros, condimentum euismod sapien scelerisque sit amet. Pellentesque feugiat metus a nisi aliquam, sed suscipit eros finibus. Cras sollicitudin ultrices lacus, vitae sagittis justo molestie id. Nulla quis pulvinar mauris. Donec ac rutrum nisi. Cras a eleifend lorem. Phasellus fermentum massa eget felis vulputate, cursus viverra nulla mollis. Mauris sagittis aliquet nisi varius imperdiet. Integer sed ante leo. Etiam tempor ultrices tellus eget sollicitudin. Donec lacinia felis placerat euismod vestibulum. Nam facilisis a orci a consectetur.",
+            "food": "Bed and Breakfast",
+            "rooms": "Double Standard",
+            "price": "3,067",
+            "loc": "Italy"
+        },
+        {
+            "id": "14",
+            "title": "BH Mallorca Resort Affiliated by Fergus",
+            "description": "Vestibulum eget sollicitudin nunc. Donec sollicitudin ligula eget leo sagittis semper. Mauris porta leo et mi condimentum, non sodales urna malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Etiam tempus mi id posuere ullamcorper. In ullamcorper hendrerit ligula, tincidunt tincidunt tortor semper in. Sed et nisi eu magna auctor venenatis iaculis at nisl. Proin sed lacus nec ante eleifend placerat vel vitae turpis. Praesent mi est, malesuada et maximus in, accumsan sit amet odio. Mauris quis auctor lacus, ut dignissim elit. Sed at condimentum eros.",
+            "food": "All Inclusive",
+            "rooms": "Suite",
+            "price": "2,579",
+            "loc": " Spain"
+        },
+        {
+            "id": "15",
+            "title": "Leonardo Plaza Cypria Maris Beach Hotel and Spa",
+            "description": "Maecenas vulputate vulputate mi, eu varius mauris pretium sed. Ut ultricies enim vitae erat faucibus consectetur. Nunc gravida laoreet volutpat. Quisque non sodales augue, non iaculis libero. Ut rhoncus turpis sed libero tempus aliquet. Mauris ante tortor, fermentum iaculis magna ac, mattis tincidunt dui. Integer felis urna, ullamcorper sit amet nunc at, sollicitudin lobortis felis. Donec congue odio et dolor lobortis consequat. Cras ornare vitae lacus sed consectetur. Duis dictum ipsum at finibus sagittis.",
+            "food": "All Inclusive",
+            "rooms": "Double Room",
+            "price": "3,173",
+            "loc": "Cyprus"
+        }
+    ]
+}
