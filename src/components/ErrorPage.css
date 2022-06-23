@@ -1,0 +1,24 @@
+.error-page {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  -webkit-box-shadow: 5px 4px 10px -9px rgba(85, 85, 85, 1);
+  -moz-box-shadow: 5px 4px 10px -9px rgba(85, 85, 85, 1);
+  box-shadow: 5px 4px 10px -9px rgba(85, 85, 85, 1);
+}
+
+.error-page-title {
+  font-size: 2.3rem;
+  margin: 10px 0;
+  color: red;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.error-page-message {
+  font-size: 1.4rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+}

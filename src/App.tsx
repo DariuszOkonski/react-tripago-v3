@@ -1,4 +1,5 @@
 import "./App.css";
+import ErrorPage from "./components/ErrorPage";
 import Header from "./components/Header";
 import Loading from "./components/Loading";
 import Modal from "./components/Modal";
@@ -7,21 +8,25 @@ import Results from "./components/Result";
 import useFetch from "./hooks/useFetch";
 
 function App() {
-  const [isPending, data, err] = useFetch("http://localhost:3000/tripsss");
+  const [isPending, data, err] = useFetch("http://localhost:3000/tripss");
 
   return (
     <div className="App">
       <Header />
-
-      {isPending && <Loading />}
-
-      {!isPending && (
+      {err && <ErrorPage message={err} />}
+      {!err && (
         <>
-          <Options />
-          <Results />
-          <Modal />
+          {isPending && <Loading />}
+
+          {!isPending && (
+            <>
+              <Options />
+              <Results />
+              <Modal />
+            </>
+          )}
         </>
-      )}
+      )}{" "}
     </div>
   );
 }
