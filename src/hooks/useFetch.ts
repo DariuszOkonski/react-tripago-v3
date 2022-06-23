@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { Trip } from './../interfaces/index';
 
-interface useFetchProps {
-    url: string
-}
-
 type IsPending = boolean;
 type Data = Trip[];
 type Err = string | null;

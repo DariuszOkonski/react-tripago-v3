@@ -10,10 +10,6 @@
   align-items: center;
 }
 
-.modal.hide {
-  display: none;
-}
-
 .modal-container {
   max-width: 720px;
   padding: 20px;

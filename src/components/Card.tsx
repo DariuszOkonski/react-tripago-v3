@@ -1,16 +1,21 @@
 import "./Card.css";
+import { Trip } from "./../interfaces/index";
+interface CardProps {
+  title: string;
+  price: string;
+  location: string;
+}
 
-interface CardProps {}
-
-const Card: React.FC<CardProps> = () => {
+const Card: React.FC<CardProps> = ({ title, price, location }) => {
   return (
     <div className="card">
-      <h2 className="card-header">2 Night Stay in Venice</h2>
-      <p className="card-description">
-        description: Lorem ipsum dolor sit amet...
+      <h2 className="card-header">{title}</h2>
+      <p className="card-price">
+        <em>price: </em> £{price}
       </p>
-      <p className="card-price">price: £1,020</p>
-      <p className="card-location">location: spain</p>
+      <p className="card-location">
+        <em>location:</em> {location}
+      </p>
 
       <button className="btn">details</button>
     </div>

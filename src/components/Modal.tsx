@@ -4,7 +4,7 @@ interface ModalProps {}
 
 const Modal: React.FC<ModalProps> = () => {
   return (
-    <div className="modal hide">
+    <div className="modal">
       <div className="modal-container">
         <small className="modal-small">title:</small>
         <p className="modal-title">Alua Soul Mallorca Resort</p>

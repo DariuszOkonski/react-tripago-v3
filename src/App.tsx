@@ -6,9 +6,11 @@ import Modal from "./components/Modal";
 import Options from "./components/Options";
 import Results from "./components/Result";
 import useFetch from "./hooks/useFetch";
+import { useState } from "react";
 
 function App() {
-  const [isPending, data, err] = useFetch("http://localhost:3000/tripss");
+  const [isModal, setIsModal] = useState<boolean>(false);
+  const [isPending, data, err] = useFetch("http://localhost:3000/trips");
 
   return (
     <div className="App">
@@ -21,8 +23,9 @@ function App() {
           {!isPending && (
             <>
               <Options />
-              <Results />
-              <Modal />
+              <Results trips={data} />
+
+              {isModal && <Modal />}
             </>
           )}
         </>
