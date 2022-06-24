@@ -21,10 +21,18 @@ function App() {
     <div className="App">
       <Header />
       {err && <ErrorPage message={err} />}
-      {isPending && <Loading />}
-      {!err && <Options handleUrl={handleUrl} />}
-      {!err && <Results trips={trips} />}
-      {isModal && <Modal />}
+      {!err && (
+        <>
+          {isPending && <Loading />}
+
+          <div style={{ display: isPending ? "none" : "block" }}>
+            <Options handleUrl={handleUrl} />
+            <Results trips={trips} />
+          </div>
+
+          {isModal && <Modal />}
+        </>
+      )}
     </div>
   );
 }
