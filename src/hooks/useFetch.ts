@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Trip } from './../interfaces/index';
 
-type IsPending = boolean;
-type Data = Trip[];
-type Err = string | null;
-type useFetchReturns = [IsPending, Data, Err];
+export type IsPending = boolean;
+export type Data = Trip[];
+export type Err = string | null;
+export type useFetchReturns = [IsPending, Data, Err];
 
 const useFetch = (url: string): useFetchReturns => {
     const [isPending, setIsPending] = useState<boolean>(false)
@@ -35,7 +35,7 @@ const useFetch = (url: string): useFetchReturns => {
 
         }
         fetchData();    
-    }, [])
+    }, [url])
     
 
     return [isPending, data, err];
