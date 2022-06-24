@@ -1,4 +1,90 @@
 {
+    "boards" : [
+        {
+            "id": "0",
+            "board": "All"
+        },
+        {
+            "id": "1",
+            "board": "Half Board"
+        },
+        {
+            "id": "2",
+            "board": "All Inclusive"
+        },
+        {
+            "id": "3",
+            "board": "Half board plus"
+        },
+        {
+            "id": "4",
+            "board": "All inclusive plus"
+        },
+        {
+            "id": "5",
+            "board": "Bed and Breakfast"
+        }
+    ],
+    "accommodations": [
+        {
+            "id": "0",
+            "accommodation": "All"
+        },
+        {
+            "id": "1",
+            "accommodation": "Double Room With Sea View"
+        },
+        {
+            "id": "2",
+            "accommodation": "Deluxe Double Room With Inland View"
+        },
+        {
+            "id": "3",
+            "accommodation": "Double Room"
+        },
+        {
+            "id": "4",
+            "accommodation": "Standard Double Room"
+        },
+        {
+            "id": "5",
+            "accommodation": "Double Or Twin Standard"
+        },
+        {
+            "id": "6",
+            "accommodation": "Double Standard"
+        },
+        {
+            "id": "7",
+            "accommodation": "Suite"
+        }        
+    ],
+    "locations": [
+        {
+            "id": "0",
+            "location": "All"
+        },
+        {
+            "id": "1",
+            "location": "Spain"
+        },
+        {
+            "id": "2",
+            "location": "Greece"
+        },
+        {
+            "id": "3",
+            "location": "Cyprus"
+        },
+        {
+            "id": "4",
+            "location": "Italy"
+        },
+        {
+            "id": "5",
+            "location": "Turkey"
+        }
+    ],
     "trips": [
         {
             "id": "1",
@@ -124,7 +210,7 @@
             "board": "All Inclusive",
             "accommodation": "Suite",
             "price": "2,579",
-            "location": " Spain"
+            "location": "Spain"
         },
         {
             "id": "15",

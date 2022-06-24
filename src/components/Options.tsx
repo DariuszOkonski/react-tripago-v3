@@ -1,8 +1,16 @@
 import "./Options.css";
+import { Location, Accommodation, Board } from "./../interfaces/index";
+interface OptionsProps {
+  locations: Location[];
+  accommodations: Accommodation[];
+  boards: Board[];
+}
 
-interface OptionsProps {}
-
-const Options: React.FC<OptionsProps> = () => {
+const Options: React.FC<OptionsProps> = ({
+  locations,
+  accommodations,
+  boards,
+}) => {
   return (
     <div className="options">
       <h2 className="options-header">Find your holidays by:</h2>
@@ -10,27 +18,27 @@ const Options: React.FC<OptionsProps> = () => {
         <label className="options-label">
           <small className="options-small">locations:</small>
           <select className="options-select">
-            <option value="">All</option>
-            <option value="">Greece</option>
-            <option value="">Spain</option>
+            {locations.map((item) => (
+              <option value={item.location}>{item.location}</option>
+            ))}
           </select>
         </label>
 
         <label className="options-label">
           <small className="options-small">accommodation:</small>
           <select className="options-select">
-            <option value="">All</option>
-            <option value="">Bed and Breakfast</option>
-            <option value="">Double Room</option>
+            {accommodations.map((item) => (
+              <option value={item.accommodation}>{item.accommodation}</option>
+            ))}
           </select>
         </label>
 
         <label className="options-label">
           <small className="options-small">board:</small>
           <select className="options-select">
-            <option value="">All</option>
-            <option value="">All inclusive</option>
-            <option value="">Half board</option>
+            {boards.map((item) => (
+              <option value={item.board}>{item.board}</option>
+            ))}
           </select>
         </label>
       </div>

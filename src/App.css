@@ -18,7 +18,7 @@ body {
 .btn {
   border: 0;
   margin: 10px 0;
-  background-color: #555;
+  background-color: crimson;
   color: white;
   padding: 10px 15px;
   font-size: 1.2rem;
@@ -38,5 +38,5 @@ body {
 }
 
 .btn:hover {
-  background-color: #222;
+  background-color: #555;
 }
