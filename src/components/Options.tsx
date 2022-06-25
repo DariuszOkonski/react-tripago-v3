@@ -1,15 +1,21 @@
 import "./Options.css";
 import { useState, useEffect } from "react";
-import { ALL } from "./../constants/constants";
+import {
+  ALL,
+  endpoint_trips,
+  endpoint_locations,
+  endpoint_accommodations,
+  endpoint_boards,
+} from "./../constants/constants";
 import useFetch from "./../hooks/useFetch";
 interface OptionsProps {
   handleUrl: (url: string) => void;
 }
 
 const Options: React.FC<OptionsProps> = ({ handleUrl }) => {
-  const [, locations] = useFetch("http://localhost:3000/locations");
-  const [, accommodations] = useFetch("http://localhost:3000/accommodations");
-  const [, boards] = useFetch("http://localhost:3000/boards");
+  const [, locations] = useFetch(endpoint_locations);
+  const [, accommodations] = useFetch(endpoint_accommodations);
+  const [, boards] = useFetch(endpoint_boards);
 
   const [location, setLocation] = useState<string>(ALL);
   const [accommodation, setAccommodation] = useState<string>(ALL);
@@ -29,7 +35,7 @@ const Options: React.FC<OptionsProps> = ({ handleUrl }) => {
     const secondAmpersand = tempAccommodation && tempBoard ? "&" : "";
 
     handleUrl(
-      `http://localhost:3000/trips?${tempLocation}${firstAmpersand}${tempAccommodation}${secondAmpersand}${tempBoard}`
+      `${endpoint_trips}?${tempLocation}${firstAmpersand}${tempAccommodation}${secondAmpersand}${tempBoard}`
     );
   }, [location, accommodation, board]);
 

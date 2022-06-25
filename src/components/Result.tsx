@@ -3,9 +3,11 @@ import "./Result.css";
 import { Trip } from "./../interfaces/index";
 interface ResultsProps {
   trips: Trip[];
+  handleModal: (isModal: boolean) => void;
+  handleId: (id: string) => void;
 }
 
-const Results: React.FC<ResultsProps> = ({ trips }) => {
+const Results: React.FC<ResultsProps> = ({ trips, handleModal, handleId }) => {
   return (
     <div className="results">
       {trips.length ? (
@@ -17,11 +19,14 @@ const Results: React.FC<ResultsProps> = ({ trips }) => {
       {trips.map((trip) => (
         <Card
           key={trip.id}
+          id={trip.id}
           title={trip.title}
           price={trip.price}
           accommodation={trip.accommodation}
           board={trip.board}
           location={trip.location}
+          handleModal={handleModal}
+          handleId={handleId}
         />
       ))}
     </div>

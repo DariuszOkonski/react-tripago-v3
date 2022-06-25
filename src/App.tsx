@@ -7,14 +7,20 @@ import Options from "./components/Options";
 import Results from "./components/Result";
 import useFetch from "./hooks/useFetch";
 import { useState } from "react";
+import { endpoint_trips } from "./constants/constants";
 
 function App() {
   const [isModal, setIsModal] = useState<boolean>(false);
-  const [url, setUrl] = useState<string>("http://localhost:3000/trips");
+  const [url, setUrl] = useState<string>(endpoint_trips);
   const [isPending, trips, err] = useFetch(url);
+  const [id, setId] = useState<string>("");
 
   const handleUrl = (url: string) => {
     setUrl(url);
+  };
+
+  const handleId = (id: string) => {
+    setId(id);
   };
 
   return (
@@ -27,10 +33,14 @@ function App() {
 
           <div style={{ display: isPending ? "none" : "block" }}>
             <Options handleUrl={handleUrl} />
-            <Results trips={trips} />
+            <Results
+              trips={trips}
+              handleModal={setIsModal}
+              handleId={handleId}
+            />
           </div>
 
-          {isModal && <Modal />}
+          {isModal && <Modal handleModal={setIsModal} id={id} />}
         </>
       )}
     </div>
